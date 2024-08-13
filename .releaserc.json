@@ -1,0 +1,29 @@
+{
+    "release": {
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            "@semantic-release/github",
+            [
+                "@semantic-release/git",
+                {
+                    "assets": ["dist/**/*.{ts,js}", "package.json", "README.md"]
+                }
+            ],
+            [
+                "@semantic-release/npm",
+                {
+                    "pkgRoot": "dist"
+                }
+            ]
+        ],
+        "branches": [
+            "master",
+            "main",
+            {
+                "name": "beta",
+                "prerelease": true
+            }
+        ]
+    }
+}
