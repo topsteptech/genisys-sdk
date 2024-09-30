@@ -1,5 +1,5 @@
 {
-    "name": "genisys-sdk",
+    "name": "@topstep/genisys-sdk",
     "author": "Bryce Shelley",
     "version": "0.1.0",
     "scripts": {
