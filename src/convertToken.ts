@@ -1,5 +1,5 @@
 import { genisysFetch } from "./util/JSONFetch"
-import {LoginFullReqBody, LoginFullResBody} from './types'
+import { LoginFullReqBody, LoginFullResBody } from "./types"
 
 const getUrl = (override?: string) => {
     if (override) {
