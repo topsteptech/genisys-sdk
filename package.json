@@ -11,7 +11,7 @@
         "release": "pnpm dlx semantic-release"
     },
     "repository": {
-        "url": "git+https://github.com/thelinguist/genisys-sdk.git"
+        "url": "git+https://github.com/topstep/genisys-sdk.git"
     },
     "keywords": [
         "typescript",
